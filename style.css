@@ -133,6 +133,8 @@
     width: 100%;
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 #about-us h5{
     color: #6a0a0f;
