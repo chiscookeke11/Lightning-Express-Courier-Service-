@@ -36,6 +36,7 @@
     transform: translate(-50%, -50%);
     text-align: center;
     width: 70% !important; 
+    height: auto !important;
     margin-left: auto;
     margin-right: auto;
     
@@ -53,8 +54,9 @@
 }
 .carousel-caption p {
     padding: 2% 10% 0 10%;
-    font-size: 16px;
+    font-size: 17px;
     font-style: italic;
+    margin-bottom: 2%;
 }
 .carousel-inner .carousel-item::before {
     content: "";
@@ -67,8 +69,118 @@
     z-index: 1;
 }
 .carousel-caption {
-    z-index: 2; /* Ensures the text is above the gradient overlay */
+    z-index: 2; 
 }
+.banner-btn a{
+	width: 150px;
+	text-decoration: none;
+	display: inline-block;
+	margin: 0 10px;
+	padding: 12px 0;
+	color: #fff;
+	font-weight: bold;
+	border: 0.5px solid #fff;
+	position: relative;
+	z-index: 1;
+	transition: color 0.5s;
+	text-align: center;
+}
+.banner-btn a span{
+	width: 0%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #6a0a0f;
+	z-index: -1;
+}
+.banner-btn a:hover{
+	border: 0.5px solid #6a0a0f;
+	transition: color 0.5s;
+}
+.banner-btn a:hover span{
+	width: 100%;
+	transition: 0.5s;
+}
+.banner-btn a:hover {
+	color: #fff;
+	transition: color 0.5s;
+}
+.navbar-toggler {
+    outline: none; 
+    box-shadow: none;
+  }
+  .navbar-toggler:focus {
+    outline: none; 
+    box-shadow: none;
+  }
+  #about-us{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: darkgray;
+  }
+  #about-us h2{
+    color: #6a0a0f;
+    font-size: 2.3rem; 
+    font-weight: bold;
+    text-shadow: 0 0 3px darkgray;
+  }
+#about-us-item{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+#about-us h5{
+    color: #6a0a0f;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+#about-us p{
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+}
+.full-height-img{
+    height: 100% !important; 
+    object-fit: cover; 
+    width: 100%; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
 
 
 
